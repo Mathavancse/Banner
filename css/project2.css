@@ -1,0 +1,125 @@
+body{
+    background-color: black;
+    padding-top: 10px;
+
+}
+
+.con1{
+    background-color: rgb(247, 220, 220);
+    height:550px;
+    width:78%;
+    margin: 0% auto;
+    padding-top: 100px;
+    box-shadow:  5px 5px 10px 5px rgb(247, 220, 220);
+
+
+}
+.con2{
+    
+    background-color: black;
+    height:440px;
+    width:75%;
+    margin: 0% auto;
+    box-shadow: 10px 15px 30px 10px red;
+    
+}
+
+.top{
+    height:70px;
+    background-color: black;
+    width: 100%;
+}
+
+.top img{
+    height: 70px;
+    width:70px;
+    margin-left: 20px;
+
+}
+.name{
+    color: white;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+    color: red;
+    
+}
+
+.name{
+    box-shadow: 5px 5px 25px 5px red;
+    transform: scale(1.1);
+}
+
+.top ul{
+    float: right;
+    margin-top: 30px;
+
+}
+
+.top ul li{
+    display: inline;
+}
+
+.top ul li a{
+    float: right;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:800;
+    font-size: 13px;
+}
+
+.top ul li a:hover{
+    color:red;
+    box-shadow: 5px 5px 25px 5px red;
+    transform: scale(1.1);
+
+}
+
+.btm1{
+    height: 84%;
+    background-color: black;
+    width: 65%;
+    float: left;
+}
+.btm2{
+    height:84%;
+    background-color: black;
+    width: 35%;
+    float: right;
+}
+
+.btm2 img{
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 320px;
+    width: 80%;
+    filter: drop-shadow(5px 5px 10px gray)drop-shadow(1px 1px 5px gray );
+    transition: 1.5s;
+
+
+}
+
+.btm2 img:hover{
+    transform: scale(1.05);
+    filter: drop-shadow(1px 1px 20px red);
+
+}
+
+
+span{
+    color:yellow;
+    animation: animate 6s linear infinite;
+}
+
+@keyframes slide{
+    0%{
+        width:0;
+    }
+    100%{
+        width:100%;
+    }
+}
